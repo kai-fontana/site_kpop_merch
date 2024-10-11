@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+nav {
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    background-color: #3333338c; 
+    padding: 20px 0;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #e473d1;
+}
+
+#home {
+    /* background-color: #4a90e2; */
+    background-image: url('https://i.pinimg.com/564x/a5/5d/36/a55d3696e3124f2630eba21e0add1a94.jpg');
+    background-size: cover;
+    color: #e9e2f8;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#home h1 {
+    margin: 20px;
+}
+
+#home p {
+    margin: 20px;
+}
+#home .cta-button {
+    display: flex;
+    align-items: center;
+}
+
+
+.main-content {
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.footer {
+
+}
+.cta-button{
+    margin-top: 30px;
+    background-color: #7766c6;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px #00000075;
+    transition: background-color 1s ease, transform 1s ease;
+}
+.cta-button:hover{
+    background: #e473d1;
+}
+
+@media (max-width:480px) {
+    .column {
+        flex: 1 1 100%;
+        background-color: rgb(145, 106, 235);
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+}
